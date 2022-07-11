@@ -1,0 +1,22 @@
+html {
+    background-color: rgb(70, 142, 236);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+section{
+    padding: 20px;
+    height: 40vh;
+    width: 60vh;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    margin: auto;
+
+}
+footer{
+    text-align: center;
+    color: white;
+
+}

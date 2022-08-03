@@ -8,19 +8,20 @@
 </head>
 <body>
     <h1>Nome do usuario</h1>
-        <form action="cadastro.php" method="post">
+        <form action="" method="post" autocomplete="on">
             <p>
                 <label for="iusu">Usuario:</label>
-                <input type="text" name="usu" id="iusu">
+                <input type="text" name="usu" id="iusu" autocomplete="username" minlength="5" maxlength="15" size="15" placeholder="nome de usuario">
             </p>
             <p>
                 <label for="isenha">Senha:</label>
-                <input type="password" name="senha" id="isenha">
+                <input type="password" name="senha" id="isenha"  autocomplete="current-password" minlength="5" maxlength="15" size="15" placeholder="senha">
             </p>
             <p>
-                <input type="submit" value="enviar">
+                <input type="submit" value="enviar" >
                 <input type="reset" value="limpar">
             </p>
         </form>
+        
 </body>
 </html>

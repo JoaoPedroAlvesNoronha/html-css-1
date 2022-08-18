@@ -3,11 +3,34 @@
     padding: 0px;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 h1{
     text-align: center;
     color: white;
     background-color: rgb(75, 74, 74);
     padding: 4vh;
+}
+@media screen and (orientation:portrait){
+ body{
+    background: url(../img/cev-portrait.jpg);
+    background-position: center bottom;
+    background-size: cover;
+ }   
+ h1{
+    background-color: black;
+ }
+
+ }
+
+@media screen and (orientation:landscape){
+   body{
+    background: url(../img/cev-landscape.jpg);
+    background-size: cover;
+    
+   }
 }
